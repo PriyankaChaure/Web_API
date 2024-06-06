@@ -1,0 +1,58 @@
+﻿<html>
+    <head>
+        <title> Sign in </title>
+      <script src="~/jquery/jquery.js"></script>
+        <script type="text/javascript">
+         $(function(){
+
+            $("#btn").click(function(){
+                var url = "http://localhost:5144/api/AuthUser"
+                var rec={"EmailID":$("#em").val(),"Password":$("#pwd").val()};      
+                 $.ajax({
+                   url:url,
+                   type:"Post",
+                   data:JSON.stringify(rec),
+                   contentType:"application/json",
+                   success:function(result)
+                   {
+                       // alert(result);
+                        if (result == "Invalid Email Id or Password!")
+                        {
+                          alert(result);
+                        }
+                        else
+                        {
+                           sessionStorage.utoken= result;
+                           location.href="/Home/Index";
+                        }
+                   },
+                   error:function(err)
+                   {
+                     alert(JSON.stringify(err));
+                   }
+                 });
+            });
+
+         });
+        </script>
+    </head>
+    <body>
+        <h2> User Sign In </h2>
+        <table>
+            <tr>
+                <td> Email ID</td>
+                <td> <input type="text" id="em" /></td>
+            </tr>
+            <tr>
+                <td>  Password: </td>
+                <td> <input type="password" id="pwd" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="SignIn" id="btn" />
+                </td>
+            </tr>
+            
+        </table>
+    </body>
+</html>

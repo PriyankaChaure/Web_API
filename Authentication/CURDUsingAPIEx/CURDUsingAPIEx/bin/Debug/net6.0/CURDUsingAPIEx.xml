@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CURDUsingAPIEx</name>
+    </assembly>
+    <members>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.GetProducts(System.String)">
+            <summary>
+            Action used to Retrive All Products from Database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.GetProductById(System.Int64,System.String)">
+            <summary>
+            Action used to Retrive Product using Prdouct ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.CreateProduct(CURDUsingAPIEx.Models.Product,System.String)">
+            <summary>
+            Action to Create New Product
+            </summary>
+            <param name="rec"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.UpdateProduct(CURDUsingAPIEx.Models.Product,System.String)">
+            <summary>
+            Action to Modify/Update Product
+            </summary>
+            <param name="rec"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.UpdateProduct(System.Int64,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{CURDUsingAPIEx.Models.Product})">
+            <summary>
+            Action to Patch Project using Json Patch
+            </summary>
+            <param name="id"></param>
+            <param name="patch"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CURDUsingAPIEx.Controllers.ProductAPIController.Delete(System.Int64,System.String)">
+            <summary>
+            Used to Delete Product using ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CURDUsingAPIEx.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:CURDUsingAPIEx.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CURDUsingAPIEx.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CURDUsingAPIEx.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,54 @@
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\appsettings.Development.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\appsettings.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\libman.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.staticwebassets.runtime.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.exe
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.deps.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.runtimeconfig.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.dll
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.pdb
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.csproj.AssemblyReference.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.GeneratedMSBuildEditorConfig.editorconfig
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.AssemblyInfoInputs.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.AssemblyInfo.cs
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.csproj.CoreCompileInputs.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.MvcApplicationPartsAssemblyInfo.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.RazorAssemblyInfo.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.RazorAssemblyInfo.cs
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets.build.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets.development.json
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\scopedcss\bundle\CurdDBClientEx.styles.css
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.dll
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\refint\CurdDBClientEx.dll
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.pdb
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.genruntimeconfig.cache
+D:\2023\4.30 to 5.30 Eve\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\ref\CurdDBClientEx.dll
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\appsettings.Development.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\appsettings.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\libman.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.staticwebassets.runtime.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.exe
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.deps.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.runtimeconfig.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.dll
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\bin\Debug\net6.0\CurdDBClientEx.pdb
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.AssemblyInfoInputs.cache
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.AssemblyInfo.cs
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.csproj.CoreCompileInputs.cache
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.MvcApplicationPartsAssemblyInfo.cache
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.RazorAssemblyInfo.cache
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.RazorAssemblyInfo.cs
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets.build.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets.development.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets\msbuild.CurdDBClientEx.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets\msbuild.build.CurdDBClientEx.props
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CurdDBClientEx.props
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CurdDBClientEx.props
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\scopedcss\bundle\CurdDBClientEx.styles.css
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.dll
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\refint\CurdDBClientEx.dll
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.pdb
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\CurdDBClientEx.genruntimeconfig.cache
+C:\Ankit\api\CurdDBClientEx\CurdDBClientEx\obj\Debug\net6.0\ref\CurdDBClientEx.dll

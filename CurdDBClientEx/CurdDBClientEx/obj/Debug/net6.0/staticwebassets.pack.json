@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Ankit\\api\\CurdDBClientEx\\CurdDBClientEx\\wwwroot\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CurdDBClientEx.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CurdDBClientEx.props",
+      "PackagePath": "build\\CurdDBClientEx.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CurdDBClientEx.props",
+      "PackagePath": "buildMultiTargeting\\CurdDBClientEx.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CurdDBClientEx.props",
+      "PackagePath": "buildTransitive\\CurdDBClientEx.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

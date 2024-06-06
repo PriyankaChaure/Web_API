@@ -1,0 +1,221 @@
+﻿<html>
+    <head>
+        <title>J Query Client </title>
+        <script src="~/jquery/jquery.js" ></script>
+        <script type="text/javascript">
+           $(function(){
+            var url = "http://localhost:5144/api/productapi";
+
+            function GetAll()
+            {
+                $.ajax({
+                    url: url,
+                    type: "Get",
+                    contentType: "application/json",
+                    success: function (result) {
+                        // alert(JSON.stringify(result));
+                        $("#tb").empty();
+                        var str = "";
+                        for (var i = 0; i < result.length; i++) {
+                            str = "<tr><td>" + result[i].productID + "</td>";
+                            str += "<td>" + result[i].productName + "</td>";
+                            str += "<td>" + result[i].mfgName + "</td>";
+                            str += "<td>" + result[i].price + "</td></tr>";
+                            $("#tb").append(str);
+                        }
+                    },
+                    error: function (err) {
+
+                    }
+                });
+            }
+
+
+            GetAll();
+
+            function makeempty()
+            {
+                $("#pname").val("");
+                $("#mfgname").val("");
+                $("#price").val("");
+            }
+
+            $("#btnsave").click(function(){
+                
+                var rec={"ProductName":$("#pname").val(),"MfgName":$("#mfgname").val(),"Price":$("#price").val()};
+                
+                $.ajax({
+                 url:url,
+                 type:"Post",
+                 data:JSON.stringify(rec),
+                 contentType:"application/json",
+                 success:function(result)
+                 {
+                     alert(result);
+                     GetAll();
+                     makeempty();
+                     $("#err").html("");
+                 },
+                 error:function(err)
+                 {
+                     alert(JSON.stringify(err));
+                     $("#err").html(JSON.stringify(err));
+                 }
+                });
+
+            });
+
+            $("#btnsearch").click(function(){
+              
+                $.ajax({
+                 url:url+"/"+$("#pid").val(),
+                 type:"get",
+                 contentType:"application/json",
+                 success:function(result)
+                 {
+                   //alert(JSON.stringify(result));
+                    if(result!=null)
+                    {
+                      $("#pname").val(result.productName);
+                      $("#mfgname").val(result.mfgName);
+                      $("#price").val(result.price);
+                    }
+                 },
+                 error:function(err)
+                 {
+                   alert(JSON.stringify(err.statusText));
+                   makeempty();
+                 }
+                });
+
+            });
+
+
+            $("#btnupdate").click(function(){
+            
+                var rec ={"ProductID":$("#pid").val(),"ProductName":$("#pname").val(),"MfgName":$("#mfgname").val(),"Price":$("#price").val()};
+                 $.ajax({
+                  url:url,
+                  type:"Put",
+                  contentType:"application/json",
+                  data:JSON.stringify(rec),
+                  success:function(result)
+                  {
+                    alert(result);
+                    makeempty();
+                    GetAll();
+                  },
+                  error:function(err)
+                  {
+                    alert(JSON.stringify(err));
+                  }
+                 });
+            
+            });
+
+
+            $("#btndelete").click(function(){
+             
+                $.ajax({
+                 url:url+"/"+$("#pid").val(),
+                 type:"Delete",
+                 contentType:"application/json",
+                 success:function(result)
+                 {
+                   alert(JSON.stringify(result));
+                   GetAll();
+                   makeempty();
+                 },
+                 error:function(err)
+                 {
+                   alert(JSON.stringify(err));
+                 }
+                });
+
+            });
+
+
+            $("#btnpatch").click(function(){
+            
+                 var patch=[
+                   {"path":"/ProductName","op":"replace","value":"Test Product"},
+                 ];
+
+                 $.ajax({
+                    url:url+"/"+ $("#pid").val(),
+                    type:"Patch",
+                    data:JSON.stringify(patch),
+                    contentType:"application/json",
+                    success:function(result)
+                    {
+                      alert(JSON.stringify(result));
+                      GetAll();
+                    },
+                    error:function(err)
+                    {
+                      alert(JSON.stringify(result));
+                    }
+                 });
+
+            });
+
+
+           });
+        </script>
+    </head>
+    <body>
+         <h2> Product List </h2>
+         <div id="err" style="background-color:yellow;color:red;">
+
+         </div>
+         <table>
+             <tr>
+                 <td> Product ID:</td>
+                 <td>
+                     <input type="text" id="pid" />
+                     <input type="button" value="Search" id="btnsearch" />
+                 </td>
+             </tr>
+             <tr>
+                 <td> Product Name:</td>
+                 <td>
+                     <input type="text" id="pname" />
+                 </td>
+             </tr>
+             <tr>
+                 <td> Mfg Name:</td>
+                 <td>
+                     <input type="text" id="mfgname" />
+                 </td>
+             </tr>
+             <tr>
+                 <td> Price :</td>
+                 <td>
+                     <input type="text" id="price" />
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <input type="button" value="Save" id="btnsave" />
+                     <input type="button" value="update" id="btnupdate" />
+                     <input type="button" value="delete" id="btndelete" />
+
+                <input type="button" value="patch" id="btnpatch" />
+                 </td>
+             </tr>
+         </table>
+         <table border="1">
+           <thead>
+            <tr>
+                <th> Product ID </th>
+                <th> Product Name</th>
+                <th> Mfg Name</th>
+                <th> Price </th>
+            </tr>
+           </thead>
+           <tbody id="tb">
+
+           </tbody> 
+         </table>
+    </body>
+</html>
